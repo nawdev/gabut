@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-downloader",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "status": 307,
+      "headers": {
+        "Location": "/tiktok?url="
+      }
+    },
+    {
+      "src": "/tiktok",
+      "dest": "/tiktok.js"
+    }
+  ]
+}
