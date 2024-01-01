@@ -11,6 +11,7 @@
     },
     {
       "src": "/tiktok",
+      "headers": { "cache-control": "no-cache, no-store, must-revalidate", "Access-Control-Allow-Origin": "*" },
       "dest": "/tiktok.js"
     }
   ]
